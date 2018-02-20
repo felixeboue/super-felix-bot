@@ -1,2 +1,3 @@
-[requires]
-python_full_version = "3.6.4"
+mohi@dev:~$ vi runtime.txt
+mohi@dev:~$ cat runtime.txt
+python-2.7.13
