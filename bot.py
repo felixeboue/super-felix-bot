@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from discord.voice_client import VoiceClient
-import asyncio
+
 
 
 if not discord.opus.is_loaded():
@@ -225,7 +225,6 @@ class Music:
 def setup(bot):
     bot.add_cog(Music(bot))
     print('Le son charge')
-    
 startup_extensions =["Music"]
 bot = commands.Bot("!")
 
